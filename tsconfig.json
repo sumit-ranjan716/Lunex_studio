@@ -8,6 +8,8 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"]
-    }
+    },
+    "incremental": true,
+    "tsBuildInfoFile": ".tsbuildinfo"
   }
 }
